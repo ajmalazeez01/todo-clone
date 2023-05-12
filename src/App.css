@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.App {
+
+    text-align: center;
+    border-radius: 19px;
+    background: #e0e0e0;
+    box-shadow: 18px 18px 36px #bebebe,
+        -18px -18px 36px #ffffff;
+}
+
+.todo_head {
+    color: rgb(0, 0, 0);
+    border-radius: 19px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 11px 11px 21px #bebebe,
+        -11px -11px 21px #ffffff;
+}
+
+.taskBg {
+    border-radius: 19px;
+    background: #e0e0e0;
+    box-shadow: inset 11px 11px 21px #bebebe,
+        inset -11px -11px 21px #ffffff;
+    margin-top: 20px;
+    padding: 10px 140px 10px 15px;
+    text-align: left;
+    font-size: 22px;
+    position: relative;
+
+}
+
+.taskBg div {
+    display:flex;
+    align-items: center;
+}
+
+.taskNumber {
+    border-radius: 71px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 5px 5px 8px #9d9d9d,
+        -5px -5px 8px #ffffff;
+    color: #0a0a0a;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.taskBg .teskTest{
+    flex: 1;
+}
+.taskBg .done .teskTest {
+    text-decoration: line-through;
+    opacity: 0.3;
+    
+
+}
+.taskBg .iconWrap{
+    position: absolute;
+    top: 25%;
+    transform: translate(-50%);
+    right: -50px;
+    width: auto;
+    display: inline-block;
+
+}
+.taskBg .iconWrap span{
+    width: 32px;
+    text-align: center;
+    font-size: 20px;
+    height: 32px;
+    border-radius: 102px;
+background: linear-gradient(145deg, #f0f0f0, #cacaca);
+box-shadow:  6px 6px 12px #929292,
+             -6px -6px 12px #ffffff;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    cursor: pointer;
+    color: rgb(40, 40, 40);
+
+}
+.taskBg .iconWrap span:hover{
+    color: rgb(102, 102, 102);
+
+}
+.add_task{
+    border-radius: 23px;
+background: #e0e0e0;
+box-shadow:  7px 7px 14px #989898,
+             -7px -7px 14px #ffffff;
+}
+.input_task{
+    border-radius: 23px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  5px 5px 10px #989898,
+             -5px -5px 10px #ffffff;
+}
+.add_btn{
+    border-radius: 10px;
+background: #e0e0e0;
+box-shadow:  5px 5px 10px #989898,
+             -5px -5px 10px #ffffff;
+}
+
+.update_task{
+    border-radius: 23px;
+background: #e0e0e0;
+box-shadow:  7px 7px 14px #989898,
+             -7px -7px 14px #ffffff;
+}
+.update_task{
+    border-radius: 23px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  5px 5px 10px #989898,
+             -5px -5px 10px #ffffff;
+}
+.update_btn{
+    border-radius: 10px;
+background: #e0e0e0;
+box-shadow:  5px 5px 10px #989898,
+             -5px -5px 10px #ffffff;
+             margin-left: 15px;
+}
+.no_task{
+    border-radius: 14px;
+background: #e0e0e0;
+box-shadow:  10px 10px 20px #bebebe,
+             -10px -10px 20px #ffffff;
+}
+.done{
+    text-decoration: line-through ;
+}
